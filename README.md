@@ -264,3 +264,7 @@ Logs: `logs/bunny.log` (proxy), `logs/editor_launch.log` (UE), `logs/build.log`.
 - [docs/implementation_details.md](docs/implementation_details.md) — design
   notes: protocol shim internals, engine resolution layers, launch rules and
   the `-Cmd` trap, the service/session-0 story, toolset sync semantics.
+
+## Credits
+
+Vibecode by [Qwen Flash Next GSQ RCO IQ3_XXS](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF) on [Strata engine](https://github.com/Niko1221/Strata), Human QA by Charnet3D
