@@ -218,7 +218,8 @@ in-editor compiles calls this once per project.
 
 ## Running as a Windows service (nssm)
 
-`install_service.bat` (run **elevated**; set `NSSM=` at the top to your
+`install_service.bat` (run **elevated** — `elevate_install.bat` elevates it
+with one UAC click; set `NSSM=` at the top of install_service.bat to your
 nssm.exe) (re)installs `ue-mcp-bunny`: app = `.venv\Scripts\python.exe -m
 bunny.server`, working dir = the folder containing the script, autostart,
 account **LocalSystem**. Run it from the folder you want the proxy to live in
