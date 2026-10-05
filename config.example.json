@@ -1,0 +1,17 @@
+{
+  "_comment": "Reference config — copy to config.json and edit the paths. Run: .venv\\Scripts\\python.exe -m bunny.server",
+  "host": "127.0.0.1",
+  "port": 8765,
+  "upstream_url": "http://127.0.0.1:8000/mcp",
+  "poll_interval_s": 12,
+  "project_path": "C:\\Path\\To\\YourProject\\YourProject.uproject",
+  "engine_root": "C:\\Program Files\\Epic Games\\UE_5.8",
+  "editor_binary": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+  "build_target": "YourProjectEditor",
+  "platform": "Win64",
+  "configuration": "Development",
+  "launch_args": "-ExecCmds=ModelContextProtocol.StartServer -nosplash",
+  "launch_ready_timeout_s": 300,
+  "build_timeout_s": 1800,
+  "scan_extra_roots": []
+}
