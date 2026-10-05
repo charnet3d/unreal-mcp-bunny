@@ -27,6 +27,7 @@ echo [install_service] nssm not found — set NSSM= in this file to your nssm.ex
 exit /b 1
 :have_nssm
 "%NSSM%" stop ue-mcp-bunny >nul 2>nul
+"%NSSM%" set ue-mcp-bunny Application   "%~dp0.venv\Scripts\python.exe" || goto :fail
 "%NSSM%" set ue-mcp-bunny AppParameters -m bunny.server        || goto :fail
 "%NSSM%" set ue-mcp-bunny AppDirectory  "%~dp0."               || goto :fail
 "%NSSM%" set ue-mcp-bunny ObjectName    LocalSystem            || goto :fail
