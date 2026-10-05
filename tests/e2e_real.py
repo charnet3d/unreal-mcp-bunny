@@ -1,6 +1,6 @@
 """Real end-to-end: proxy -> launch real UE -> cache -> call real tools.
 
-Run with the proxy already listening (see run_bunny.bat / README), then:
+Run with the proxy already listening (see bunny.bat / README), then:
     .venv\\Scripts\\python.exe tests/e2e_real.py [--kill-when-done]
 """
 from __future__ import annotations

@@ -472,7 +472,7 @@ class UEBridge:
                     "RHI fatal (exit 3), so the proxy did not launch it. Fix: run "
                     "install_service.bat as admin (moves the service to LocalSystem, which "
                     "can spawn the editor into your desktop session), or run bunny "
-                    "interactively via run_bunny.bat."),
+                    "interactively via bunny.bat."),
                 "window": wm,
             }
         log.info("launching editor: %s (cwd=%s, window=%s, session=%s)", " ".join(argv), cwd,

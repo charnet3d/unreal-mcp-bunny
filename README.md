@@ -38,7 +38,7 @@ copy config.example.json config.json
 notepad config.json
 
 :: 3. run the proxy
-run_bunny.bat
+bunny.bat
 ::   -> http://127.0.0.1:8765/health
 ::   -> MCP endpoint: http://127.0.0.1:8765/mcp
 ```
